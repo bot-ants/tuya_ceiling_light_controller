@@ -10,5 +10,5 @@ To turn on/off the light (basically the main switch), set DP20.
 | adjust white brightness | byte 9 - byte 10 | 10-1000|
 | adjust RGB brightness | byte 7 - byte 8 | 10-1000|
 | adjust RGB color white level | byte 5 - byte 6 | 0-1000, 0 -> full white|
-| adjust RGB color | byte 3-4 | unknown, needs more testing |
+| adjust RGB color | byte 3-4 | Hue from red to red (0-360) |
 | adjust temperature | byte 11-12 | 0 - 1000|
